@@ -214,3 +214,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Vector databases
+chroma/
+chroma_db/
+vectorstore/
+faiss_index/
+
+# Embeddings / index files
+*.faiss
+*.pkl
+
+# Models
+models/
+*.bin
+*.pt
+*.pth
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Ollama models
+ollama_models/
+
+# Temporary files
+tmp/
+temp/
+
+# Data files
+data/raw/
+data/processed/
