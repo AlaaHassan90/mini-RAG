@@ -1,7 +1,7 @@
 # mini-RAG
 ## Requirements
 
-- Python 3.8 or later
+- Python 3.10pip or later
 
 #### Install Python using MiniConda
 
@@ -16,4 +16,10 @@ $ conda create -n mini-rag python=3.8
 
 ```bash
 $ conda activate mini-rag
+```
+
+## (Optional) Setup you command line interface for better readability
+
+```bash
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$"
 ```
